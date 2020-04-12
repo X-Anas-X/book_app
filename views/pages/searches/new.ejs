@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book App</title>
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+    <header>
+        <h1> Books page</h1>
+    </header>
+
+    <form action="/incoming" method="POST">
+        <label>
+            <span> Title </span>
+               <input type="text" name="title" value="title" placeholder="Search by Title.." required>
+        </label>
+         <label>
+             <span> Author </span>
+               <input type="text" name="author" value="author" placeholder="Search bt Author.." required>
+        </label>
+        <input type="submit" name="submit">
+       </form>
+</body>
+</html>
